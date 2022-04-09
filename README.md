@@ -6,6 +6,7 @@ The service translates into Russian using a connection to the Yandex translator 
 * Python 3.7 or later
 * Libreries:  requests, beautiful soup, pandas, datetime, locale, re, subprocess, smtplib, time, mimetypes
 
+### How to use
 1) Specify the List of websites urls to parse
 2) Specify begining date
 3) Check the preview of report and confirm email sending 
