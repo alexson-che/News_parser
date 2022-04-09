@@ -432,7 +432,7 @@ try:
 
         textrow = soup.select('p')
         raw_html = "".join([str(n) for n in textrow])
-        TOKEN = 'AQVN3FN4EC82RGUBiVtMfVLiVEo971_Ft03Mhbkn'
+        TOKEN = 'TOKENsdfjkhlhoewiroi762783648726TOKEN'
         headers = {"Authorization": f"Api-Key {TOKEN}", }
         res = requests.post("https://translate.api.cloud.yandex.net/translate/v2/translate",
                             json={"targetLanguageCode": 'ru', "texts": cleanhtml(raw_html), },
