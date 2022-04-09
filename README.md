@@ -1,5 +1,5 @@
 # News_parser
-A service that collects :mag_right: news from websites :globe_with_meridians: with specified :calendar: date to the current :calendar: date and sends an HTML summary table :bookmar_tabs: to an  :e-mail: :e-mail: :e-mail:  email list. 
+A service that collects :mag_right: news from websites :globe_with_meridians: with specified :calendar: date to the current :calendar: date and sends an HTML summary table :bookmark_tabs: to an  :e-mail: :e-mail: :e-mail:  email list. 
 The service translates into Russian using a connection to the Yandex translator API [Yandex Translate API](https://cloud.yandex.ru/docs/translate/operations/translate) 
 
 ## Requirements:
