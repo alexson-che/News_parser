@@ -1,5 +1,5 @@
 # News_parser
-A service that collects news from a specified date to the current date and sends an HTML summary table to an email list. 
+A service that collects :mag_right: news from websites with specified date to the current date and sends an HTML summary table to an  :incoming_envelope:  email list. 
 Service connected with [Yandex Translate API](https://cloud.yandex.ru/docs/translate/operations/translate) 
 
 ## Requirements:
