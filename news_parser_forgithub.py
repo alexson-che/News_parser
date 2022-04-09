@@ -410,7 +410,7 @@ try:
         card['provider'] = 'psrc'
         raw_title = soup.select('.page-header__title.flex.align-center.subnav__sub_title.lib-sub-title.newsPress')[
             0].text.strip()
-        TOKEN = 'AQVN3FN4EC82RGUBiVtMfVLiVEo971_Ft03Mhbkn'
+        TOKEN = 'TOKEN_dfgjh_TOKEN'
         headers = {"Authorization": f"Api-Key {TOKEN}", }
         res = requests.post("https://translate.api.cloud.yandex.net/translate/v2/translate",
                             json={"targetLanguageCode": 'ru', "texts": raw_title, },
@@ -420,7 +420,7 @@ try:
         del a
 
         raw_date = soup.select('.page-header__title')[0].text.strip()
-        TOKEN = 'AQVN3FN4EC82RGUBiVtMfVLiVEo971_Ft03Mhbkn'
+        TOKEN = 'TOKEN_dfgjh_TOKEN'
         headers = {"Authorization": f"Api-Key {TOKEN}", }
         res = requests.post("https://translate.api.cloud.yandex.net/translate/v2/translate",
                             json={"targetLanguageCode": 'ru', "texts": raw_date, },
@@ -432,7 +432,7 @@ try:
 
         textrow = soup.select('p')
         raw_html = "".join([str(n) for n in textrow])
-        TOKEN = 'TOKENsdfjkhlhoewiroi762783648726TOKEN'
+        TOKEN = 'TOKEN_dfgjh_TOKEN'
         headers = {"Authorization": f"Api-Key {TOKEN}", }
         res = requests.post("https://translate.api.cloud.yandex.net/translate/v2/translate",
                             json={"targetLanguageCode": 'ru', "texts": cleanhtml(raw_html), },
