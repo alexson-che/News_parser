@@ -3,7 +3,7 @@ A service that collects :mag_right: news from websites :globe_with_meridians: wi
 The service translates into Russian using a connection to the Yandex translator API [Yandex Translate API](https://cloud.yandex.ru/docs/translate/operations/translate) 
 
 ## Requirements:
-* List of urls to parse shoul be written
+* List of websites urls to parse shoul be written
 * Python 3.7 or later
 * Libreries:  requests, beautiful soup, pandas, datetime, locale, re, subprocess, smtplib, time, mimetypes
 
