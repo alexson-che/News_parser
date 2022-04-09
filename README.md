@@ -7,4 +7,4 @@ Service connected with [Yandex Translate API](https://cloud.yandex.ru/docs/trans
 * Python 3.7 or later
 * Libreries:  requests, beautiful soup, pandas, datetime, locale, re, subprocess, smtplib, time, mimetypes
 
-![Demo](https://disk.yandex.ru/d/771As93ZYDB4vg?v=3&s=460 "Орк")
+![Demo](https://disk.yandex.ru/i/pnlspnsH0GhMgQv=3&s=460 "Орк")
